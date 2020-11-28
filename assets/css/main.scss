@@ -39,3 +39,59 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+a.button-pdf {
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #3b9aff;
+    color: #007bff;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+
+a.button-video {
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #3b9aff;
+    color: #007bff;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+
+a.button-website {
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #3b9aff;
+    color: #007bff;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+
+.award {
+    display: inline;
+    padding: 1px;
+    margin-bottom: -2px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #585858;
+    color: #3b3b3b;
+    font-size: 0.8em;
+}
+
+.news { border-style: none; margin-top: 30px; padding-top: 20px; }
+.news h2 { font-weight: bold; margin-top: 0; margin-bottom: 10px; }
+.news table { border-style: none; border-collapse: collapse; width: 100%; }
+.news table .date { width: 19%; }
+.news table .announcement { width: 81%; }
+.news table tr { text-align: left; }
+.news table td { padding: 6px 0; vertical-align: top; border: none; }

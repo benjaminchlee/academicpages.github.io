@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Benjamin Lee"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Benjamin Lee"
+description              : &description "PhD Student at Monash University"
+url                      : https://benjaminchlee.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "benjaminchlee/benjaminchlee.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  name             : "Benjamin Lee"
+  avatar           : "prof_pic.jpg"
+  bio              : "PhD Student in Immersive Analytics"
+  location         : "Melbourne, Australia"
+  employer         : "Monash University"
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=oJUHhu4AAAAJ&hl=en"
+  email            : "benjamin.lee1@monash.edu"
+  researchgate     : "https://www.researchgate.net/profile/Benjamin_Lee13"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,24 +96,24 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "benjaminchlee"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "benjamin-lee-27b3a7155"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "benjaminchlee"
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "https://www.youtube.com/channel/UCQggNubB2xC18ryuefH5BUA"
   wikipedia        :
 
 
@@ -187,6 +187,26 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  publications_conference:
+    defaults:
+      layout: post
+    output: true
+    permalink: /publications_conference/:path/
+  publications_journal:
+    defaults:
+      layout: post
+    output: true
+    permalink: /publications_journal/:path/
+  publications_extendedabstracts:
+    defaults:
+      layout: post
+    output: true
+    permalink: /publications_extendedabstracts/:path/
 
 
 # Defaults

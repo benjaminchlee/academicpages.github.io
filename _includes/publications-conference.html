@@ -1,0 +1,31 @@
+<div class="publications-conference">
+  <h2>Conference Papers</h2>
+  {% if site.publications_conference %}
+    {% assign publications = site.publications_conference %}
+    {% for item in publications %}
+    <div style="overflow:auto; margin-bottom: 20px;">
+      <div style="float: left; width:30%"><img src="{{ item.imgsrc }}" height="95%" width="95%" border="5px"></div>
+      <div style="float: right; width: 70%;">
+        <b style="color:#696969; text-decoration: underline; text-decoration-color: #696969;">{{ item.venue }}</b>
+        {% if item.honourablemention %}
+          <span class="award" style="float:right;"><i class="fas fa-medal"></i> Honourable Mention Award</span>
+        {% endif %}
+        <br>
+        <b style="font-size: 1.1em;">{{ item.title }}</b> <br>
+        <i style="font-size: 0.9em">{{ item.authors }}</i>
+        <div class="links" style="padding-top: 10px;">
+          {% if item.paperurl %}
+            <a class="button-pdf" href="{{ item.paperurl }}"><i class="fas fa-file-pdf"></i> PDF</a>
+          {% endif %}
+          {% if item.videourl %}
+            <a class="button-video" href="{{ item.videourl }}"><i class="fab fa-youtube"></i> Video</a>
+          {% endif %}
+          {% if item.website %}
+            <a class="button-website" href="{{ item.website }}"><i class="fas fa-globe"></i> Website</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  {% endif %}
+</div>
