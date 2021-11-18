@@ -1,9 +1,9 @@
 <div class="publications-conference">
   <h2>Conference Papers</h2>
   {% if site.publications_conference %}
-    {% assign publications = site.publications_conference %}
+    {% assign publications = site.publications_conference | reverse %}
     {% for item in publications %}
-    <div style="overflow:auto; margin-bottom: 20px;">
+    <div style="overflow:auto; display:table; margin-bottom: 20px;">
       <div style="float: left; width:30%"><img src="{{ item.imgsrc }}" height="95%" width="95%" border="5px"></div>
       <div style="float: right; width: 70%;">
         <b style="color:#696969; text-decoration: underline; text-decoration-color: #696969;">{{ item.venue }}</b>

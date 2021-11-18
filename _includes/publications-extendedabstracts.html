@@ -1,9 +1,9 @@
 <div class="publications-extendedabstracts">
   {% if site.publications_extendedabstracts %}
-  <h2>Demo Papers</h2>
-    {% assign publications = site.publications_extendedabstracts %}
+  <h2>Extended Abstracts and Workshop Papers</h2>
+    {% assign publications = site.publications_extendedabstracts | reverse %}
     {% for item in publications %}
-    <div style="overflow:auto; margin-bottom: 20px;">
+    <div style="overflow:auto; display:table; margin-bottom: 20px;">
       <div style="float: left; width:30%"><img src="{{ item.imgsrc }}" height="95%" width="95%" border="5px"></div>
       <div style="float: right; width: 70%;">
         <b style="color:#696969; text-decoration: underline; text-decoration-color: #696969;">{{ item.venue }}</b>
