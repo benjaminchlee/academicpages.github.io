@@ -1,5 +1,5 @@
 ---
-title: "A Design Space For Data Visualisation Transformations Between 2D And 3D In Mixed-Reality Environments"
+title: "Tangible Globes for Data Visualisation in Augmented Reality"
 imgsrc: '/images/Satriadi2022TangibleGlobes.png'
 paperurl: '/files/Satriadi2022TangibleGlobes.pdf'
 videourl: 'https://www.youtube.com/watch?v=QwlpML4D9lo'
