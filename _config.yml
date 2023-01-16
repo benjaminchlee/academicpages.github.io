@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Benjamin Lee"
 title_separator          : "-"
 name                     : &name "Benjamin Lee"
-description              : &description "PhD Student at Monash University"
+description              : &description "Postdoctoral Researcher at University of Stuttgart"
 url                      : https://benjaminchlee.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "benjaminchlee/benjaminchlee.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Benjamin Lee"
   avatar           : "prof_pic.jpg"
-  bio              : "PhD Student in Immersive Analytics"
-  location         : "Melbourne, Australia"
-  employer         : "Monash University"
+  bio              : "Postdoctoral Researcher in Immersive Analytics"
+  location         : "Stuttgart, Germany"
+  employer         : "University of Stuttgart"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=oJUHhu4AAAAJ&hl=en"
-  email            : "benjamin.lee1@monash.edu"
+  email            : "benjaminchlee@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Benjamin_Lee13"
   uri              :
   bitbucket        :
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/channel/UCQggNubB2xC18ryuefH5BUA"
+  youtube          : "https://www.youtube.com/@benjaminchlee"
   wikipedia        :
 
 
