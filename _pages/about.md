@@ -9,6 +9,8 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student at the Data Visualisation and Immersive Analytics Lab, part of Monash University’s Faculty of IT in Melbourne, Australia. My supervisors are <a href="https://ialab.it.monash.edu/~dwyer/" target="_blank">Prof. Tim Dwyer</a> (main), <a href="https://berniejenny.info/" target="_blank">A/Prof. Bernhard Jenny</a>, <a href="https://sites.google.com/view/cordeil/home/" target="_blank">Dr. Maxime Cordeil</a> and <a href="http://www.aprouzeau.com/" target="_blank">Dr. Arnaud Prouzeau</a>.
+My research revolves around the field of Immersive Analytics: the use of virtual and/or augmented reality technologies to support visual data exploration and presentation. In particular, my work has investigated how 2D surfaces can be used inside of an immersive 3D space to facilitate (collaborative) visual analysis and data understanding.
 
-My current research interests revolve around immersive analytics, which explores how virtual and augmented reality technologies can be used to both support users in their data analysis tasks, and to faciliate better understanding of data. So far, I have investigated how multiple users collaboratively analyse multivariate data and find insights together, and explored novel ways to provide a more intuitive understanding of data to people using virtual reality. I am now currently exploring how data visualisations can intuitively be transformed between conventional 2D and novel 3D representations in augmented reality to enhance data exploration.
+I will be starting a postdoctoral position at VISUS <a href="https://www.visus.uni-stuttgart.de/en/" target="_blank">VISUS</a>, University of Stuttgart with Prof. Michael Sedlmair and Prof. Dieter Schmalstieg in February 2023.
+
+I submitted my PhD at the <a href="https://www.monash.edu/it/hcc/dvia-lab" target="_blank">Data Visualisation and Immersive Analytics Lab</a>, Monash University. My supervisors were Prof. Tim Dwyer (main), A/Prof. Bernhard Jenny, Dr. Maxime Cordeil, and Dr. Arnaud Prouzeau.
