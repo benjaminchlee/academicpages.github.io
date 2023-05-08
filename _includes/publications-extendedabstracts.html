@@ -23,6 +23,9 @@
           {% if item.website %}
             <a class="button-website" href="{{ item.website }}"><i class="fas fa-globe"></i> Website</a>
           {% endif %}
+          {% if item.doi %}
+            <a class="button-doi" href="{{ item.doi }}"><i class="ai-doi"></i> DOI</a>
+          {% endif %}
         </div>
       </div>
     </div>
