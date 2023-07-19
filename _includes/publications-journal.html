@@ -17,6 +17,9 @@
           {% if item.paperurl %}
             <a class="button-pdf" href="{{ item.paperurl }}"><i class="fas fa-file-pdf"></i> PDF</a>
           {% endif %}
+          {% if item.supplementalurl %}
+            <a class="button-pdf" href="{{ item.supplementalurl }}"><i class="fas fa-file-archive"></i> Supplemental</a>
+          {% endif %}
           {% if item.videourl %}
             <a class="button-video" href="{{ item.videourl }}"><i class="fab fa-youtube"></i> Video</a>
           {% endif %}
